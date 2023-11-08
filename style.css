@@ -1,0 +1,49 @@
+body {
+    background-color: black;
+    color: aqua;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+nav a {
+    color:blueviolet;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    font-style: italic;
+    font-size: larger;
+}
+
+nav a:hover {
+    color:purple;
+    
+}
+
+nav li {
+    float: left;
+}
+
+nav img {
+    vertical-align: middle;
+    margin-inline: 15px;
+}
+
+.main-wrapper {
+    padding-inline: 10%;
+    padding: 10%;
+}
+.main-left {
+    float: left;
+    max-width: 50%;
+}
+
+.main-right {
+    float: right;
+    max-width: 50%;
+}
