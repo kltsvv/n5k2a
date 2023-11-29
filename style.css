@@ -3,6 +3,10 @@ body {
     color: aqua;
 }
 
+nav {
+    padding-bottom: 1%;
+    border-bottom: 3px double yellow;
+}
 nav ul {
     list-style-type: none;
     padding: 0px;
@@ -34,10 +38,11 @@ nav img {
     margin-inline: 15px;
 }
 
-.main-wrapper {
-    padding-inline: 10%;
+.homepage-main-wrapper {
     padding: 10%;
+    padding-inline: 10%;
 }
+
 .main-left {
     float: left;
     max-width: 50%;

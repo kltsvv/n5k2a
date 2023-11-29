@@ -1,0 +1,19 @@
+.main-wrapper {
+    padding: 10%;
+    padding-inline: 20%;
+}
+
+mark.yellow {
+    background-color: yellow;
+    color: aqua;
+}
+
+.main-wrapper > img {
+    width: 100%;
+    height: auto;
+}
+
+#icon {
+    text-align: center;
+    margin: 3%;
+}
