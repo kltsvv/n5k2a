@@ -1,11 +1,13 @@
 body {
     background-color: black;
     color: aqua;
+    font-size: 1.25em;
 }
 
 nav {
-    padding-bottom: 1%;
+    padding-bottom: 3px;
     border-bottom: 3px double yellow;
+    
 }
 nav ul {
     list-style-type: none;
@@ -31,6 +33,7 @@ nav a:hover {
 
 nav li {
     float: left;
+    font-size: 1em;
 }
 
 nav img {
