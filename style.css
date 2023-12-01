@@ -2,24 +2,36 @@ body {
     background-color: black;
     color: aqua;
     font-size: 1.25em;
+    /* margin: 0; */
 }
 
 nav {
     padding-bottom: 3px;
+    background-color: black;
     border-bottom: 3px double yellow;
-    
+    position: sticky;
+    top: 0;
 }
+
 nav ul {
+    overflow: hidden;
     list-style-type: none;
     padding: 0px;
     margin: 0px;
-    overflow: hidden;
+    vertical-align: middle;
+}
+
+nav li {
+    float: left;
+    font-size: 1em;
+    padding: 10px;
+    padding-inline: 20px;
 }
 
 nav a {
     color:blueviolet;
     text-decoration: none;
-    padding: 15px;
+    padding:0;
     display: block;
     text-align: center;
     font-style: italic;
@@ -28,35 +40,36 @@ nav a {
 
 nav a:hover {
     color:purple;
-    
 }
 
-nav li {
-    float: left;
-    font-size: 1em;
+nav {
+    height: 50px;
+    padding: 0;
+
 }
 
-nav img {
-    vertical-align: middle;
-    margin-inline: 15px;
+.wrapper{
+    margin-inline: 10%;
+    margin-top: 100px;
 }
 
-.homepage-main-wrapper {
-    padding: 10%;
-    padding-inline: 10%;
+.parent {
+    display: flex;
+    width: 100%;
 }
 
-.main-left {
-    float: left;
-    max-width: 50%;
+.child-left {
+    margin: 10px;
+    flex: 1;
+    padding-top: 5%;
 }
 
-.main-right {
-    float: right;
-    max-width: 50%;
+.child-right {
+    margin: 10px;
+    flex: 1;
 }
 
-.main-right > img {
+.child-right > img {
     max-width: 100%;
     height: auto;
 }
