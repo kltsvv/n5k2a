@@ -1,0 +1,55 @@
+.main-wrapper {
+    padding-top: 5%;
+    padding-inline: 20%;
+    /* display: flex; */
+}
+
+mark.yellow {
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+    background-color: yellow;
+    color: aqua;
+}
+
+mark.blueviolet {
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+    background-color: blueviolet;
+    color: aqua;
+}
+
+mark.red {
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+    background-color: red;
+    color: aqua;
+}
+
+mark.white {
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+    background-color: white;
+    color: aqua;
+}
+
+mark.green {
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+    background-color: green;
+    color: aqua;
+}
+
+/* .comicsans {
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+} */
+
+.main-wrapper > img {
+    width: 100%;
+    height: auto;
+}
+
+#icon {
+    text-align: center;
+    margin: 3%;
+    margin-inline: 10%;
+}
+
+.inline-block-child {
+    /* width: 50%; */
+    display: inline-block;
+}
