@@ -2,7 +2,7 @@ body {
     background-color: black;
     color: aqua;
     font-size: 1.25em;
-    /* margin: 0; */
+    margin: 0;
 }
 
 nav {
@@ -42,10 +42,9 @@ nav a:hover {
     color:purple;
 }
 
-nav {
-    height: 50px;
-    padding: 0;
-
+nav img {
+    top:10px;
+    position: absolute;
 }
 
 .wrapper{
