@@ -38,8 +38,13 @@ mark.green {
     font-family: 'Comic Sans MS', 'Comic Sans', cursive;
 } */
 
-.main-wrapper > img {
-    width: 100%;
+.img-wrapper {
+    text-align: center;
+    margin: 5%;
+}
+
+#templeos-img {
+    width: 80%;
     height: auto;
 }
 
