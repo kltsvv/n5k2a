@@ -3,12 +3,27 @@
     padding-inline: 20%;
 }
 
+.main-wrapper img {
+    padding: 2%;
+}
+
 .center {
     text-align: center;
 }
 
 .logo {
-    padding: 3%;
     width: 20%;
     height: auto;
+}
+
+mark.blueviolet {
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+    background-color: blueviolet;
+    color: aqua;
+}
+
+mark.green {
+    font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+    background-color: green;
+    color: aqua;
 }
